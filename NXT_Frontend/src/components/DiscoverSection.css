@@ -1,0 +1,23 @@
+.discover-section {
+    text-align: center;
+    padding: 30px 120px;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .discover-title {
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+    color: #1e1e1e;
+  }
+  
+  .discover-description {
+    font-size: 14px;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #444;
+    line-height: 1.6;
+  }
+  
