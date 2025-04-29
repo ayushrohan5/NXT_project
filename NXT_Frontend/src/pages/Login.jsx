@@ -11,7 +11,7 @@ export default function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const { data } = await axios.post("http://localhost:8000/api/auth/login", form);
+      const { data } = await axios.post("https://nxt-project.vercel.app/api/auth/login", form);
       saveToken(data.token); // Store the token in localStorage or sessionStorage
       alert("Logged in Successfully");
       navigate("/");

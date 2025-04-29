@@ -10,7 +10,7 @@ function Register() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const { data } = await axios.post("http://localhost:8000/api/auth/register", form);
+      const { data } = await axios.post("https://nxt-project.vercel.app/api/auth/register", form);
       saveToken(data.token);
       alert("Registered Successfully");
       navigate("/login");
